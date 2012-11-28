@@ -21,12 +21,5 @@ class TestMatrixFunction(unittest.TestCase):
 
 class TestFooFunction(unittest.TestCase):
 
-    test_matrix_foo = Foo
-    test_matrix_foo_1 = Foo
-    test_matrix_foo_2 = Foo
-    test_matrix_foo_3 = Foo
-    test_matrix_foo_1 = test_matrix_foo.bar(test_matrix_foo, [[1], [2], [3], [4]])
-    test_matrix_foo_3 = test_matrix_foo_2.baz(test_matrix_foo)
-
     def test_method_bar(self):
        pass
