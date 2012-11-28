@@ -61,7 +61,5 @@ class Foo():
                     result += weight[k][j] * weight[i][j]
                 if result > 0:
                         result_vector.append(result)
-        print("result_1", result)
-        print("result_vector", result_vector)
-        print("columnMatrix_1", weight)
+
         return result_vector
